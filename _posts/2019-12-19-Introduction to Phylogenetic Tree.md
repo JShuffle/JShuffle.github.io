@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 进化树介绍
+title: Introduction to Phylogenetic Tree
 date: 2019-12-19
 categories: bioinformatics
 tags: bioinformatics
