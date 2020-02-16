@@ -4,7 +4,10 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/ac.png">
   <link rel="stylesheet" href="{{ "/css_js/style.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css_js/highlight.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="http://yandex.st/highlightjs/8.0/styles/solarized_dark.min.css">
+  <link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="external nofollow" rel="stylesheet"> 
+  <!-- 语法高亮 -->   
+<script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script> 
+<script >hljs.initHighlightingOnLoad();</script>
   <!-- 数学公式 -->
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <script type="text/x-mathjax-config">
@@ -15,7 +18,4 @@
     }
   });
 </script>
-<!-- 语法高亮 -->
-<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 </head>
