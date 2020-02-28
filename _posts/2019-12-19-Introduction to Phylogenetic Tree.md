@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to Phylogenetic Tree
 date: 2019-12-19
-categories: bioinformatics
+categories: Phylogenetic
 tags: bioinformatics
 ---
 
