@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how to derive fully condition distribution in Gibbs sampling?
+title: How to derive fully condition distribution in Gibbs sampling?
 subtitle: 
 date: 2020-8-10
 categories: 概率论
@@ -47,6 +47,8 @@ $$
 
 分母与`Xj`无关，因此可以被当作归一化因子省略掉。
 
+> from Wikipedia：
+>
 > "Proportional to" in this case means that the denominator is not a function of `Xj` and thus is the same for all values of `Xj`;  it forms part of the [normalization constant](https://en.wikipedia.org/wiki/Normalization_constant "Normalization constant") for the distribution over `Xj`
 
 
@@ -68,6 +70,8 @@ $$
 
 其中，最后一步的目的是，进一步在分解后的表达式中，把与`Xj`无关的变量放到归一化因子内部。
 
+> from Wikipedia：
+>
 > In practice, to determine the nature of the conditional distribution of a factor `Xj`, it is easiest to factor the joint distribution according to the individual conditional distributions defined by the [graphical model](https://en.wikipedia.org/wiki/Graphical_model "Graphical model") over the variables, ignore all factors that are not functions of `Xj` (all of which, together with the denominator above, constitute the normalization constant), and then reinstate the normalization constant at the end, as necessary.
 
 **5.根据最终化简得到的形式，进行抽样。**
